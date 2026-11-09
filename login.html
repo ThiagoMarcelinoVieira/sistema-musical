@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="login-body">
+    <div class="login-card">
+      <div class="login-header">
+        <h1>🎵 Sistema Musical</h1>
+        <p>Entre com suas credenciais</p>
+      </div>
+
+      <form action="" method="post">
+        <div class="form-group">
+          <label for="user">Usuário</label>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Seu usuário"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Sua senha"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn-primary">Entrar</button>
+      </form>
+
+      <div class="login-hint">
+        <p><strong>Dica</strong></p>
+        <small>Usuário: admin - Senha: 123</small>
+      </div>
+    </div>
+  </body>
+</html>
